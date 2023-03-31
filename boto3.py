@@ -6,8 +6,8 @@ import datetime
 def get_cpu_utilization(region,instance_id,minutes):
     # create a Boto3 session with the specified AWS credentials and region
     session = boto3.Session(
-        aws_access_key_id='AKIATCH7KFDEZY2WCB7J',#Paste Your access key
-        aws_secret_access_key='IhPrHDZHaJDR8VSEUUAwqQT/G/xpqkZq9km5DLQm',#paste your secret access key
+        aws_access_key_id='XYZABC',#Paste Your access key
+        aws_secret_access_key='XYZ/ABC',#paste your secret access key
         region_name=region#paste your region  
     )
 
